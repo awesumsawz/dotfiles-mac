@@ -1,0 +1,70 @@
+#tap "hashicorp/tap"
+tap "FelixKratz/formulae"
+tap "oven-sh/bun"
+
+cask "macfuse"
+cask "nikitabobko/tap/aerospace"
+cask "font-hack-nerd-font"
+cask "font-bigblue-terminal-nerd-font"
+#cask "vorta"
+#cask "hammerspoon"
+#cask "karabiner-elements" #! Install manually from website
+#cask "1password" # installed from app store
+cask "1password-cli"
+
+brew "git"
+brew "zsh"
+brew "neovim"
+brew "fzf"
+brew "zoxide"
+brew "bat"
+brew "jesseduffield/lazygit/lazygit"
+#brew "borgbackup/tap/borgbackup-fuse"
+brew "btop"
+brew "stow"
+brew "gh"
+#brew "ansible"
+brew "sketchybar"
+#brew "qmk/qmk/qmk"
+brew "borders"
+brew "tmux"
+brew "ripgrep"
+brew "tree"
+brew "node"
+brew "starship"
+brew "terminal-notifier"
+brew "thefuck"
+brew "vivid"
+brew "speedtest-cli"
+#brew "mas"
+brew "taskell"
+# brew "terminalgpt"
+brew "jq"
+brew "yq"
+#brew "hashicorp/tap/terraform"
+#brew "kubectl"
+#brew "kanata" #! Install manually from website
+brew "imagemagick"
+brew "oven-sh/bun/bun"
+
+#mas "Things", id: 904280696
+#mas "Hand Mirror", id: 1502839586
+#mas "Drafts", id: 1435957248
+#mas "Cyberduck", id: 409222199
+#mas "Tiny Ipsum", id: 1445179392
+#mas "Magnet", id: 441258766
+#mas "Timery", id: 1425368544
+#mas "Todoist", id: 585829637
+#mas "The Unarchiver", id: 425424353
+#mas "1Password for Safari", id: 1569813296
+#mas "LittleIpsum", id: 405772121
+#mas "Numbers", id: 409203825
+#mas "Xcode", id: 497799835
+#mas "Pages", id: 409201541
+#mas "WebSSH", id: 497714887
+#mas "Fantastical", id: 975937182
+#mas "Sequel Ace", id: 1518036000
+#mas "Dark Noise", id: 1465439395
+#mas "Front and Center", id: 1493996622
+#mas "Parcel", id: 639968404
+#mas "Spark Desktop", id: 6445813049

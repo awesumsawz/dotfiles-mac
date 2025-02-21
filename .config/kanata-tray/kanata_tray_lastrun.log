@@ -1,0 +1,12 @@
+2025-02-18T14:07:26.577925-06:00 INFO kanata-tray config folder: /Users/jasonbiggs/Library/Application Support/kanata-tray
+2025-02-18T14:07:26.578968-06:00 WARN defaults - custom icon file can't be read: open /Users/jasonbiggs/Library/Application Support/kanata-tray/icons/other_layers.ico: no such file or directory
+2025-02-18T14:07:26.578999-06:00 WARN defaults - custom icon file can't be read: open /Users/jasonbiggs/Library/Application Support/kanata-tray/icons/mouse.png: no such file or directory
+2025-02-18T14:07:26.579012-06:00 WARN defaults - custom icon file can't be read: open /Users/jasonbiggs/Library/Application Support/kanata-tray/icons/qwerty.ico: no such file or directory
+2025-02-18T14:07:26.579091-06:00 INFO loading status icon: /Users/jasonbiggs/Library/Application Support/kanata-tray/status_icons/default.ico
+2025-02-18T14:07:26.579386-06:00 INFO loading status icon: /Users/jasonbiggs/Library/Application Support/kanata-tray/status_icons/crash.ico
+2025-02-18T14:07:26.579668-06:00 INFO loading status icon: /Users/jasonbiggs/Library/Application Support/kanata-tray/status_icons/pause.ico
+2025-02-18T14:07:26.579974-06:00 INFO loading status icon: /Users/jasonbiggs/Library/Application Support/kanata-tray/status_icons/live-reload.ico
+2025-02-18T14:31:03.638312-06:00 INFO Running preset 'Default Preset'
+2025-02-18T14:31:03.647997-06:00 ERROR runner.Run failed with: failed to run kanata: exec: "kanata": executable file not found in $PATH
+2025-02-18T14:31:09.296794-06:00 INFO Running preset 'Default Preset'
+2025-02-18T14:31:09.309623-06:00 ERROR runner.Run failed with: failed to run kanata: exec: "kanata": executable file not found in $PATH

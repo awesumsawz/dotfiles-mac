@@ -1,0 +1,159 @@
+{
+  "rules": [
+    {
+      "enabled": false,
+      "manipulators": [
+        {
+          "description": "Change caps_lock to command+control+option+shift.",
+          "from": {
+            "key_code": "caps_lock",
+            "modifiers": { "optional": ["any"] }
+          },
+          "to": [
+            {
+              "key_code": "left_shift",
+              "modifiers": ["left_command", "left_control", "left_option"]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "a key - tap for 'a', hold for left_option",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "a",
+            "modifiers": { "optional": ["any"] }
+          },
+          "to_if_alone": [{ "key_code": "a" }],
+          "to_if_held_down": [{ "key_code": "left_option" }],
+          "parameters": {
+            "basic.to_if_held_down_threshold_milliseconds": 200
+          },
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "s key - tap for 's', hold for left_command",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "s",
+            "modifiers": { "optional": ["any"] }
+          },
+          "to_if_alone": [{ "key_code": "s" }],
+          "to_if_held_down": [{ "key_code": "left_command" }],
+          "parameters": {
+            "basic.to_if_held_down_threshold_milliseconds": 200
+          },
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "d key - tap for 'd', hold for left_shift",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "d",
+            "modifiers": { "optional": ["any"] }
+          },
+          "to_if_alone": [{ "key_code": "d" }],
+          "to_if_held_down": [{ "key_code": "left_shift" }],
+          "parameters": {
+            "basic.to_if_held_down_threshold_milliseconds": 200
+          },
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "f key - tap for 'f', hold for left_control",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "f",
+            "modifiers": { "optional": ["any"] }
+          },
+          "to_if_alone": [{ "key_code": "f" }],
+          "to_if_held_down": [{ "key_code": "left_control" }],
+          "parameters": {
+            "basic.to_if_held_down_threshold_milliseconds": 200
+          },
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "j key - tap for 'j', hold for right_control",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "j",
+            "modifiers": { "optional": ["any"] }
+          },
+          "to_if_alone": [{ "key_code": "j" }],
+          "to_if_held_down": [{ "key_code": "right_control" }],
+          "parameters": {
+            "basic.to_if_held_down_threshold_milliseconds": 200
+          },
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "k key - tap for 'k', hold for right_shift",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "k",
+            "modifiers": { "optional": ["any"] }
+          },
+          "to_if_alone": [{ "key_code": "k" }],
+          "to_if_held_down": [{ "key_code": "right_shift" }],
+          "parameters": {
+            "basic.to_if_held_down_threshold_milliseconds": 200
+          },
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "l key - tap for 'l', hold for right_command ",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "l",
+            "modifiers": { "optional": ["any"] }
+          },
+          "to_if_alone": [{ "key_code": "l" }],
+          "to_if_held_down": [{ "key_code": "right_command" }],
+          "parameters": {
+            "basic.to_if_held_down_threshold_milliseconds": 200
+          },
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "semicolon key - tap for 'semicolon', hold for right_option",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "semicolon",
+            "modifiers": { "optional": ["any"] }
+          },
+          "to_if_alone": [{ "key_code": "semicolon" }],
+          "to_if_held_down": [{ "key_code": "right_option" }],
+          "parameters": {
+            "basic.to_if_held_down_threshold_milliseconds": 200
+          },
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
