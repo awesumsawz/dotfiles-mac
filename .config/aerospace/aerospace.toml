@@ -92,12 +92,12 @@ run = 'layout floating'
     preset = 'qwerty'
 
 [gaps]
-    inner.horizontal = 17
-    inner.vertical =   17
-    outer.left =       13
-    outer.bottom =     13
-    outer.top =        13
-    outer.right =      13
+    inner.horizontal = 12
+    inner.vertical =   12
+    outer.left =       8
+    outer.bottom =     8
+    outer.top =        8
+    outer.right =      8
 
 [mode.main.binding]
     # App shortcuts
