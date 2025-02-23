@@ -1,7 +1,7 @@
 after-login-command = []
 after-startup-command = [
-    'exec-and-forget borders active_color=0xFFFF79C6 inactive_color=0x88888888 width=5.0',
-    'exec-and-forget sketchybar'
+  'exec-and-forget borders active_color=0xFFFF79C6 inactive_color=0x88888888 width=5.0',
+  'exec-and-forget sketchybar'
 ]
 
 start-at-login = true
@@ -15,7 +15,7 @@ default-root-container-orientation = 'auto'
 automatically-unhide-macos-hidden-apps = true
 
 exec-on-workspace-change = [ '/bin/bash', '-c',
-    '$HOME/.config/aerospace/on_workspace_change.sh $AEROSPACE_FOCUSED_WORKSPACE'
+  '$HOME/.config/aerospace/on_workspace_change.sh $AEROSPACE_FOCUSED_WORKSPACE'
 ]
 
 #  lsappinfo list | fzf
