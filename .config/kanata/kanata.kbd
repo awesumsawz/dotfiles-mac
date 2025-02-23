@@ -9,20 +9,21 @@
   fn
 )
 (defvar
-  tap-time 150
+  tap-hold-time 150
+  tap-dance-time 200
   hold-time 200
 )
 
 (defalias
-  escctrl (tap-hold $tap-time $hold-time esc lctl)
-  a (tap-hold $tap-time $hold-time a lctl)
-  s (tap-hold $tap-time $hold-time s lmet)
-  d (tap-hold $tap-time $hold-time d lsft)
-  f (tap-hold $tap-time $hold-time f lctl)
-  j (tap-dance $tap-time ((tap-hold $tap-time $hold-time j rctl) j))
-  k (tap-dance $tap-time ((tap-hold $tap-time $hold-time k rsft) k))
-  l (tap-dance $tap-time ((tap-hold $tap-time $hold-time l rmet) l))
-  ; (tap-dance $tap-time ((tap-hold $tap-time $hold-time ; ralt) ;))
+  escctrl (tap-hold $tap-hold-time $hold-time esc lctl)
+  a (tap-hold $tap-hold-time $hold-time a lctl)
+  s (tap-hold $tap-hold-time $hold-time s lmet)
+  d (tap-hold $tap-hold-time $hold-time d lsft)
+  f (tap-hold $tap-hold-time $hold-time f lctl)
+  j (tap-dance $tap-dance-time ((tap-hold $tap-hold-time $hold-time j rctl) j))
+  k (tap-dance $tap-dance-time ((tap-hold $tap-hold-time $hold-time k rsft) k))
+  l (tap-dance $tap-dance-time ((tap-hold $tap-hold-time $hold-time l rmet) l))
+  ; (tap-dance $tap-dance-time ((tap-hold $tap-hold-time $hold-time ; ralt) ;))
   fnl (tap-hold 200 200 fn (layer-toggle fn))
 )
 
