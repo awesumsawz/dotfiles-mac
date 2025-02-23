@@ -3,8 +3,9 @@
 start_tray() {
     echo "Starting Kanata..."
     ~/.config/kanata-tray/kanata-tray-macos & disown
-    sudo '/Library/Application Support/org.pqrs/Karabiner-DriverKit-VirtualHIDDevice/Applications/Karabiner-VirtualHIDDevice-Daemon.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Daemon' & disdown
-    sudo ~/.config/kanata/kanata_macos_cmd_allowed_arm64 --cfg ~/.config/kanata/kanata.kbd & disdown
+    sudo '/Library/Application Support/org.pqrs/Karabiner-DriverKit-VirtualHIDDevice/Applications/Karabiner-VirtualHIDDevice-Daemon.app/Contents/MacOS/Karabiner-VirtualHIDDevice-Daemon' & disown
+    sudo ~/.config/kanata/kanata_macos_cmd_allowed_arm64 --quiet --nodelay --cfg ~/.config/kanata/kanata.kbd & disown
+    sleep 5 
     echo "Kanata startup complete!"
 }
 
