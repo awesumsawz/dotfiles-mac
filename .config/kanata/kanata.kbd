@@ -16,13 +16,13 @@
 
 (defalias
   escctrl (tap-hold $tap-hold-time $hold-time esc lctl)
-  a (tap-hold $tap-hold-time $hold-time a lctl)
+  a (tap-hold $tap-hold-time $hold-time a lalt)
   s (tap-hold $tap-hold-time $hold-time s lmet)
   d (tap-hold $tap-hold-time $hold-time d lsft)
   f (tap-hold $tap-hold-time $hold-time f lctl)
   j (tap-dance $tap-dance-time ((tap-hold $tap-hold-time $hold-time j rctl) j))
   k (tap-dance $tap-dance-time ((tap-hold $tap-hold-time $hold-time k rsft) k))
-  l (tap-dance $tap-dance-time ((tap-hold $tap-hold-time $hold-time l rmet) l))
+  l (tap-dance 150 ((tap-hold $tap-hold-time $hold-time l rmet) l))
   ; (tap-dance $tap-dance-time ((tap-hold $tap-hold-time $hold-time ; ralt) ;))
   fnl (tap-hold 200 200 fn (layer-toggle fn))
 )
