@@ -60,7 +60,6 @@
         pkgs.github-copilot-cli
         pkgs.gitkraken
         pkgs.gnumake
-        pkgs.jankyborders
         pkgs.jq
         pkgs.kubectl
         pkgs.lazygit
@@ -109,6 +108,7 @@
         casks = [
             "1password-cli"
             "vorta"
+            "hammerspoon"
             "ghostty"
             "shortcat"
             "aerospace"
@@ -125,7 +125,6 @@
           "kanata"
           "mas"
           "node"
-          "imagemagick"
         ];
         taps = [
         ];
