@@ -69,6 +69,14 @@ run = 'layout floating'
 if.app-name-regex-substring = 'zoom'
 run = 'layout floating'
 
+[[on-window-detected]]
+if.app-name-regex-substring = 'preview'
+run = 'layout floating'
+
+[[on-window-detected]]
+if.app-name-regex-substring = 'keymapp'
+run = 'layout floating'
+
 # [[on-window-detected]]
 # if.app-name-regex-substring = 'obsidian'
 # run = 'layout floating'
@@ -102,7 +110,7 @@ run = 'layout floating'
     inner.vertical =   12
     outer.left =       8
     outer.bottom =     8
-    outer.top =        8
+    outer.top =        28
     outer.right =      8
 
 [mode.main.binding]
