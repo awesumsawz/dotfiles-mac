@@ -68,3 +68,87 @@ brew "oven-sh/bun/bun"
 #mas "Front and Center", id: 1493996622
 #mas "Parcel", id: 639968404
 #mas "Spark Desktop", id: 6445813049
+
+
+
+ansible
+awscli
+bat
+borgbackup
+brave
+btop
+cyberduck
+coreutils
+docker
+docker-compose
+eza
+fzf
+gh
+git
+gitkraken
+gnumake
+jq
+kubectl
+lazygit
+lazydocker
+neovim
+obsidian
+postgresql
+python3full
+qmk
+raycast
+ripgrep
+speedtest-cli
+starship
+stop
+terraform
+thefuck
+tree
+tree-sitter
+vivid
+vscode
+xz
+yq
+zoxide
+zoom-us
+zsh
+zellij
+librewolf
+ansible-lint
+
+pkgs.nerd-fonts.fira-code
+pkgs.nerd-fonts.hack
+pkgs.nerd-fonts.jetbrains-mono
+pkgs.nerd-fonts.mononoki
+pkgs.nerd-fonts.ubuntu-mono
+pkgs.nerd-fonts.roboto-mono
+
+1password-cli
+vorta
+ghostty
+shortcat
+aerospace
+postman
+sketchybar
+borders
+kanata
+mas
+node
+minikube
+superfile
+
+
+Things
+Drafts
+Cyberduck
+Tiny Ipsum
+Timery
+Numbers
+The Unarchiver
+Pages
+WebSSH
+Fantastical
+Sequel Ace
+Dark Noise
+Parcel
+Spark Desktop
