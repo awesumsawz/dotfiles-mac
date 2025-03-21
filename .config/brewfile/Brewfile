@@ -70,7 +70,7 @@ brew "oven-sh/bun/bun"
 #mas "Spark Desktop", id: 6445813049
 
 
-
+# NIX INSTALLS
 ansible
 awscli
 bat
@@ -152,3 +152,38 @@ Sequel Ace
 Dark Noise
 Parcel
 Spark Desktop
+
+
+# Current Brew Installs
+borders
+brotli
+c-ares
+ca-certificates
+git-filter-repo
+htop
+icu4c@76
+kanata
+kubernetes-cli
+libnghttp2
+libuv
+mas
+minikube
+mpdecimal
+ncurses
+node
+openssl@3
+python@3.13
+readline
+sketchybar
+sqlite
+superfile
+xz
+
+1password-cli
+aerospace
+ghostty
+karabiner-elements
+postman
+session-manager-plugin
+shortcat
+vorta
