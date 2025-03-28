@@ -18,7 +18,9 @@ exec-on-workspace-change = [ '/bin/bash', '-c',
   '$HOME/.config/aerospace/on_workspace_change.sh $AEROSPACE_FOCUSED_WORKSPACE'
 ]
 
-#  lsappinfo list | fzf
+# FORCE TILING
+# lsappinfo list | fzf
+# -----------------------------------------------------------------------------
 [[on-window-detected]]
 if.app-name-regex-substring = 'picture-in-picture'
 run = 'layout floating'
@@ -31,7 +33,6 @@ run = 'layout floating'
 [[on-window-detected]]
 if.window-title-regex-substring = 'picture-in-picture'
 run = 'layout floating'
-
 
 [[on-window-detected]]
 if.app-name-regex-substring = '1password'
@@ -101,6 +102,18 @@ run = 'layout floating'
 # if.app-name-regex-substring = 'todoist'
 # run = 'layout floating'
 
+# FORCE TILING
+# -----------------------------------------------------------------------------
+[[on-window-detected]]
+if.app-name-regex-substring = 'zen browser'
+run = 'layout tiling'
+[[on-window-detected]]
+if.app-name-regex-substring = 'chatgpt'
+run = 'layout tiling'
+
+
+
+
 
 [key-mapping]
     preset = 'qwerty'
@@ -115,9 +128,11 @@ run = 'layout floating'
 
 [mode.main.binding]
     # App shortcuts
-    # alt-b = "exec-and-forget open -a /Applications/'Zen Browser.app'"
-    # alt-c = 'exec-and-forget open -a /Applications/Cursor.app'
-    # alt-q = 'exec-and-forget open -a /Applications/Ghostty.app'
+    alt-z = "exec-and-forget open -a /Applications/'Zen Browser.app'"
+    alt-g = 'exec-and-forget open -a /Applications/Cursor.app'
+    alt-q = 'exec-and-forget open -a /Applications/Ghostty.app'
+    alt-c = 'exec-and-forget open -a /Applications/Cursor.app'
+    
     alt-shift-r = ['exec-and-forget /opt/homebrew/bin/sketchybar --reload']
 
     alt-period = 'layout tiles horizontal vertical'
