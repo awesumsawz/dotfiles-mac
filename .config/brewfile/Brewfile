@@ -1,189 +1,73 @@
-#tap "hashicorp/tap"
-tap "FelixKratz/formulae"
+tap "hashicorp/tap"
+tap "FelixKratz/formulae" # Sketchybar dependency
 tap "oven-sh/bun"
 
 cask "macfuse"
 cask "nikitabobko/tap/aerospace"
 cask "font-hack-nerd-font"
 cask "font-bigblue-terminal-nerd-font"
-#cask "vorta"
-#cask "hammerspoon"
-#cask "karabiner-elements" #! Install manually from website
-#cask "1password" # installed from app store
 cask "1password-cli"
+cask "raycast"
+cask "ghostty"
+cask "shortcat"
+cask "postman"
 
 brew "git"
 brew "zsh"
+brew "awscli"
 brew "neovim"
 brew "fzf"
 brew "zoxide"
 brew "bat"
 brew "jesseduffield/lazygit/lazygit"
-#brew "borgbackup/tap/borgbackup-fuse"
 brew "btop"
 brew "stow"
 brew "gh"
-#brew "ansible"
+brew "ansible"
 brew "sketchybar"
-#brew "qmk/qmk/qmk"
 brew "borders"
 brew "tmux"
 brew "ripgrep"
 brew "tree"
 brew "node"
 brew "starship"
-# brew "terminal-notifier"
 brew "thefuck"
 brew "vivid"
 brew "speedtest-cli"
-#brew "mas"
-# brew "taskell"
-# brew "terminalgpt"
+brew "mas"
+brew "terminalgpt"
 brew "jq"
 brew "yq"
-#brew "hashicorp/tap/terraform"
-#brew "kubectl"
-#brew "kanata" #! Install manually from website
+brew "hashicorp/tap/terraform"
+brew "kubectl"
+brew "kanata"
 brew "imagemagick"
 brew "oven-sh/bun/bun"
+brew "cyberduck"
+brew "coreutils"
+brew "docker"
+brew "eza"
+brew "lazydocker"
+brew "neovim"
+brew "obsidian"
+brew "qmk"
+brew "raycast"
+brew "ripgrep"
+brew "python@3.13"
+brew "tree-sitter"
+brew "zellij"
+brew "minikube"
+brew "superfile"
+brew "htop"
 
-#mas "Things", id: 904280696
-#mas "Hand Mirror", id: 1502839586
-#mas "Drafts", id: 1435957248
-#mas "Cyberduck", id: 409222199
-#mas "Tiny Ipsum", id: 1445179392
-#mas "Magnet", id: 441258766
-#mas "Timery", id: 1425368544
-#mas "Todoist", id: 585829637
-#mas "The Unarchiver", id: 425424353
-#mas "1Password for Safari", id: 1569813296
-#mas "LittleIpsum", id: 405772121
-#mas "Numbers", id: 409203825
-#mas "Xcode", id: 497799835
-#mas "Pages", id: 409201541
-#mas "WebSSH", id: 497714887
-#mas "Fantastical", id: 975937182
-#mas "Sequel Ace", id: 1518036000
-#mas "Dark Noise", id: 1465439395
-#mas "Front and Center", id: 1493996622
-#mas "Parcel", id: 639968404
-#mas "Spark Desktop", id: 6445813049
-
-
-# NIX INSTALLS
-ansible
-awscli
-bat
-borgbackup
-brave
-btop
-cyberduck
-coreutils
-docker
-docker-compose
-eza
-fzf
-gh
-git
-gitkraken
-gnumake
-jq
-kubectl
-lazygit
-lazydocker
-neovim
-obsidian
-postgresql
-python3full
-qmk
-raycast
-ripgrep
-speedtest-cli
-starship
-stop
-terraform
-thefuck
-tree
-tree-sitter
-vivid
-vscode
-xz
-yq
-zoxide
-zoom-us
-zsh
-zellij
-librewolf
-ansible-lint
-
-pkgs.nerd-fonts.fira-code
-pkgs.nerd-fonts.hack
-pkgs.nerd-fonts.jetbrains-mono
-pkgs.nerd-fonts.mononoki
-pkgs.nerd-fonts.ubuntu-mono
-pkgs.nerd-fonts.roboto-mono
-
-1password-cli
-vorta
-ghostty
-shortcat
-aerospace
-postman
-sketchybar
-borders
-kanata
-mas
-node
-minikube
-superfile
-
-
-Things
-Drafts
-Cyberduck
-Tiny Ipsum
-Timery
-Numbers
-The Unarchiver
-Pages
-WebSSH
-Fantastical
-Sequel Ace
-Dark Noise
-Parcel
-Spark Desktop
-
-
-# Current Brew Installs
-borders
-brotli
-c-ares
-ca-certificates
-git-filter-repo
-htop
-icu4c@76
-kanata
-kubernetes-cli
-libnghttp2
-libuv
-mas
-minikube
-mpdecimal
-ncurses
-node
-openssl@3
-python@3.13
-readline
-sketchybar
-sqlite
-superfile
-xz
-
-1password-cli
-aerospace
-ghostty
-karabiner-elements
-postman
-session-manager-plugin
-shortcat
-vorta
+mas "Things", id: 904280696
+mas "Drafts", id: 1435957248
+mas "Tiny Ipsum", id: 1445179392
+mas "Timery", id: 1425368544
+mas "LittleIpsum", id: 405772121
+mas "WebSSH", id: 497714887
+mas "Fantastical", id: 975937182
+mas "Dark Noise", id: 1465439395
+mas "Front and Center", id: 1493996622
+mas "Parcel", id: 639968404
+mas "Spark Desktop", id: 6445813049
