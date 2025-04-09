@@ -26,7 +26,7 @@ brew "gh"
 brew "ansible"
 brew "sketchybar"
 brew "borders"
-brew "tmux"
+# brew "tmux"
 brew "ripgrep"
 brew "tree"
 brew "node"
@@ -35,7 +35,7 @@ brew "thefuck"
 brew "vivid"
 brew "speedtest-cli"
 brew "mas"
-brew "terminalgpt"
+brew "tgpt"
 brew "jq"
 brew "yq"
 brew "hashicorp/tap/terraform"
@@ -43,14 +43,13 @@ brew "kubectl"
 brew "kanata"
 brew "imagemagick"
 brew "oven-sh/bun/bun"
-brew "cyberduck"
+# brew "cyberduck"
 brew "coreutils"
 brew "docker"
 brew "eza"
 brew "lazydocker"
 brew "neovim"
 brew "obsidian"
-brew "qmk"
 brew "raycast"
 brew "ripgrep"
 brew "python@3.13"
@@ -64,7 +63,7 @@ mas "Things", id: 904280696
 mas "Drafts", id: 1435957248
 mas "Tiny Ipsum", id: 1445179392
 mas "Timery", id: 1425368544
-mas "LittleIpsum", id: 405772121
+# mas "LittleIpsum", id: 405772121
 mas "WebSSH", id: 497714887
 mas "Fantastical", id: 975937182
 mas "Dark Noise", id: 1465439395
