@@ -78,6 +78,10 @@ run = 'layout floating'
 if.app-name-regex-substring = 'keymapp'
 run = 'layout floating'
 
+[[on-window-detected]]
+if.app-name-regex-substring = 'utm'
+run = 'layout floating'
+
 # [[on-window-detected]]
 # if.app-name-regex-substring = 'obsidian'
 # run = 'layout floating'
