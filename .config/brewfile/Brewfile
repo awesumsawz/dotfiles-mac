@@ -9,7 +9,7 @@ cask "font-bigblue-terminal-nerd-font"
 cask "1password-cli"
 cask "raycast"
 cask "ghostty"
-cask "shortcat"
+cask "mouseless"
 cask "postman"
 
 brew "git"
