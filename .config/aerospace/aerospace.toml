@@ -46,9 +46,9 @@ run = 'layout floating'
 if.app-name-regex-substring = 'karabiner'
 run = 'layout floating'
 
-[[on-window-detected]]
-if.app-name-regex-substring = 'fantastical'
-run = 'layout floating'
+# [[on-window-detected]]
+# if.app-name-regex-substring = 'fantastical'
+# run = 'layout floating'
 
 [[on-window-detected]]
 if.app-name-regex-substring = 'drafts'
